@@ -9,6 +9,8 @@ import lombok.Setter;
 @Getter
 @Setter
 public class DataTestOptionsDto {
+
     private int delayInSeconds;
     private Data.MeasurementType[] measurementTypes;
+
 }

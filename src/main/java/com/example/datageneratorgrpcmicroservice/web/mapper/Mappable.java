@@ -11,4 +11,5 @@ public interface Mappable<E, D> {
     D toDto(E e);
 
     List<D> toDto(List<E> e);
+
 }

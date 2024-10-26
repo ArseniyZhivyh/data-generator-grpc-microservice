@@ -9,18 +9,19 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @Getter
 @Setter
-
 public class Data {
+
     private Long sensorId;
     private LocalDateTime timestamp;
     private double measurement;
-    private com.example.grpccommon.MeasurementType measurementType;
+    private MeasurementType measurementType;
 
     public enum MeasurementType {
 
         TEMPERATURE,
         VOLTAGE,
         POWER
+
     }
 
 }
