@@ -1,4 +1,4 @@
-h2. gRPC microservices
+H2. gRPC microservices
 This is pet-project of three microservices which integrates with gRPC, developed for self-education
 
 https://github.com/ArseniyZhivyh/data-generator-grpc-microservice - client generates data, can generates with REST
